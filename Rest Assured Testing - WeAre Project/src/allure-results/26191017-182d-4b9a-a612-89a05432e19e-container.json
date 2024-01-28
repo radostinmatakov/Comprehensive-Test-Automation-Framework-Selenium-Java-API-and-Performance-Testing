@@ -1,0 +1,1 @@
+{"uuid":"26191017-182d-4b9a-a612-89a05432e19e","name":"weare.api.testing.skill.DeleteSkillTest","children":["ee1b5aa1-8933-4050-a3c8-83fc9196a307"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1698409952940,"stop":1698409953274}],"afters":[],"start":1698409947801,"stop":1698409955132}

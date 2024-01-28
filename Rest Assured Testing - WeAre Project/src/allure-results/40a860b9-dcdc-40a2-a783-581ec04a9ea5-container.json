@@ -1,0 +1,1 @@
+{"uuid":"40a860b9-dcdc-40a2-a783-581ec04a9ea5","name":"weare.api.testing.post.GetNewsFeedTest","children":["da259618-087c-48bb-b464-21032d386d2d"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1698409924419,"stop":1698409926412}],"afters":[],"start":1698409910839,"stop":1698409938250}

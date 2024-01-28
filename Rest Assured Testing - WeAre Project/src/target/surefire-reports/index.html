@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 3 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.users.UpdateUserExpertiseTests" class="method navigator-link" hash-for-method="UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged">UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.comment.FindAllCommentsTest" class="method navigator-link" hash-for-method="findAllComments_Successful">findAllComments_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.users.GetUserByIdTests" class="method navigator-link" hash-for-method="getUserById_Successful">getUserById_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.users.RegisterUserTests" class="method navigator-link" hash-for-method="UserRegistration_When_InputValidData">UserRegistration_When_InputValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.connection.ApproveRequestTest" class="method navigator-link" hash-for-method="approveRequest_successful">approveRequest_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.comment.CreateCommentTest" class="method navigator-link" hash-for-method="createComment_Successful">createComment_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.post.CreatePostTest" class="method navigator-link" hash-for-method="createPost_Successful">createPost_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.skill.CreateSkillTests" class="method navigator-link" hash-for-method="createSkill_Successful">createSkill_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.comment.DeleteCommentTest" class="method navigator-link" hash-for-method="deleteComment_Successful">deleteComment_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.post.DeleteAPostTest" class="method navigator-link" hash-for-method="deletePost_Successful">deletePost_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.skill.DeleteSkillTests" class="method navigator-link" hash-for-method="deleteSkill_Successful">deleteSkill_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.comment.EditCommentTest" class="method navigator-link" hash-for-method="editComment_Successful">editComment_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.post.EditPostTest" class="method navigator-link" hash-for-method="editPost_Successful">editPost_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.skill.GetOneSkillTests" class="method navigator-link" hash-for-method="getOneSkillById_Successful">getOneSkillById_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.users.GetProfilePostsTests" class="method navigator-link" hash-for-method="getUserPosts_Successful">getUserPosts_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.connection.GetUserRequestsTests" class="method navigator-link" hash-for-method="getUserRequestTest">getUserRequestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.users.GetUsersTests" class="method navigator-link" hash-for-method="getUsers_Successful">getUsers_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.post.LikeDislikeAPostTest" class="method navigator-link" hash-for-method="likeAndDislikePost_Successful">likeAndDislikePost_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.comment.LikeDislikeCommentTest" class="method navigator-link" hash-for-method="likeDislikeComment_Successful">likeDislikeComment_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.skill.GetAllSkillsTests" class="method navigator-link" hash-for-method="newlyCreatedSkill_returned_whenGetAllSkills">newlyCreatedSkill_returned_whenGetAllSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.connection.SendRequestTest" class="method navigator-link" hash-for-method="sendRequest_successful">sendRequest_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="weare.api.testing.skill.UpdateSkillTests" class="method navigator-link" hash-for-method="updateSkill_Successful">updateSkill_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">weare.api.testing.users.GetUserByIdTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserById_Successful">
+                  </a> <!-- getUserById_Successful -->
+                  <span class="method-name">getUserById_Successful</span>
+                  <div class="stack-trace">java.lang.AssertionError: Incorrect status code. expected [200] but found [404]
+	at base.BaseTestSetup.isResponse200(BaseTestSetup.java:52)
+	at weare.api.testing.users.GetUserByIdTests.getUserById_Successful(GetUserByIdTests.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">weare.api.testing.users.UpdateUserExpertiseTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged">
+                  </a> <!-- UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged -->
+                  <span class="method-name">UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged</span>
+                  <div class="stack-trace">java.lang.AssertionError: Incorrect status code. expected [200] but found [500]
+	at base.BaseTestSetup.isResponse200(BaseTestSetup.java:52)
+	at weare.api.testing.users.UpdateUserExpertiseTests.UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged(UpdateUserExpertiseTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">weare.api.testing.comment.FindAllCommentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAllComments_Successful">
+                  </a> <!-- findAllComments_Successful -->
+                  <span class="method-name">findAllComments_Successful</span>
+                  <div class="stack-trace">java.lang.AssertionError: The array size is more than or equal to 1 expected [true] but found [false]
+	at weare.api.testing.comment.FindAllCommentsTest.findAllComments_Successful(FindAllCommentsTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.skill.DeleteSkillTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSkill_Successful">
+                  </a> <!-- deleteSkill_Successful -->
+                  <span class="method-name">deleteSkill_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.connection.ApproveRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="approveRequest_successful">
+                  </a> <!-- approveRequest_successful -->
+                  <span class="method-name">approveRequest_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.post.CreatePostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPost_Successful">
+                  </a> <!-- createPost_Successful -->
+                  <span class="method-name">createPost_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.comment.LikeDislikeCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="likeDislikeComment_Successful">
+                  </a> <!-- likeDislikeComment_Successful -->
+                  <span class="method-name">likeDislikeComment_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.post.LikeDislikeAPostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="likeAndDislikePost_Successful">
+                  </a> <!-- likeAndDislikePost_Successful -->
+                  <span class="method-name">likeAndDislikePost_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.post.DeleteAPostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePost_Successful">
+                  </a> <!-- deletePost_Successful -->
+                  <span class="method-name">deletePost_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.skill.GetOneSkillTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getOneSkillById_Successful">
+                  </a> <!-- getOneSkillById_Successful -->
+                  <span class="method-name">getOneSkillById_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.skill.CreateSkillTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createSkill_Successful">
+                  </a> <!-- createSkill_Successful -->
+                  <span class="method-name">createSkill_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.users.GetUsersTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_Successful">
+                  </a> <!-- getUsers_Successful -->
+                  <span class="method-name">getUsers_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.users.RegisterUserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserRegistration_When_InputValidData">
+                  </a> <!-- UserRegistration_When_InputValidData -->
+                  <span class="method-name">UserRegistration_When_InputValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.skill.GetAllSkillsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newlyCreatedSkill_returned_whenGetAllSkills">
+                  </a> <!-- newlyCreatedSkill_returned_whenGetAllSkills -->
+                  <span class="method-name">newlyCreatedSkill_returned_whenGetAllSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.connection.GetUserRequestsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserRequestTest">
+                  </a> <!-- getUserRequestTest -->
+                  <span class="method-name">getUserRequestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.comment.CreateCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createComment_Successful">
+                  </a> <!-- createComment_Successful -->
+                  <span class="method-name">createComment_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.comment.DeleteCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteComment_Successful">
+                  </a> <!-- deleteComment_Successful -->
+                  <span class="method-name">deleteComment_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.comment.EditCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editComment_Successful">
+                  </a> <!-- editComment_Successful -->
+                  <span class="method-name">editComment_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.post.EditPostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editPost_Successful">
+                  </a> <!-- editPost_Successful -->
+                  <span class="method-name">editPost_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.skill.UpdateSkillTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateSkill_Successful">
+                  </a> <!-- updateSkill_Successful -->
+                  <span class="method-name">updateSkill_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.users.GetProfilePostsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserPosts_Successful">
+                  </a> <!-- getUserPosts_Successful -->
+                  <span class="method-name">getUserPosts_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">weare.api.testing.connection.SendRequestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendRequest_successful">
+                  </a> <!-- sendRequest_successful -->
+                  <span class="method-name">sendRequest_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;weare.api.testing.comment.CreateCommentTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.comment.DeleteCommentTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.comment.EditCommentTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.comment.FindAllCommentsTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.comment.LikeDislikeCommentTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.connection.ApproveRequestTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.connection.GetUserRequestsTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.connection.SendRequestTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.post.CreatePostTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.post.DeleteAPostTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.post.EditPostTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.post.LikeDislikeAPostTest&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.skill.CreateSkillTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.skill.DeleteSkillTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.skill.GetAllSkillsTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.skill.GetOneSkillTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.skill.UpdateSkillTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.users.GetProfilePostsTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.users.GetUserByIdTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.users.GetUsersTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.users.RegisterUserTests&quot;/&gt;
+      &lt;class name=&quot;weare.api.testing.users.UpdateUserExpertiseTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (22 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getUsers_Successful')
+data.setCell(0, 2, 'weare.api.testing.users.GetUsersTests')
+data.setCell(0, 3, 8126);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'likeAndDislikePost_Successful')
+data.setCell(1, 2, 'weare.api.testing.post.LikeDislikeAPostTest')
+data.setCell(1, 3, 1823);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deletePost_Successful')
+data.setCell(2, 2, 'weare.api.testing.post.DeleteAPostTest')
+data.setCell(2, 3, 1692);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'likeDislikeComment_Successful')
+data.setCell(3, 2, 'weare.api.testing.comment.LikeDislikeCommentTest')
+data.setCell(3, 3, 1608);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteComment_Successful')
+data.setCell(4, 2, 'weare.api.testing.comment.DeleteCommentTest')
+data.setCell(4, 3, 1583);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'editComment_Successful')
+data.setCell(5, 2, 'weare.api.testing.comment.EditCommentTest')
+data.setCell(5, 3, 1246);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createPost_Successful')
+data.setCell(6, 2, 'weare.api.testing.post.CreatePostTest')
+data.setCell(6, 3, 975);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createComment_Successful')
+data.setCell(7, 2, 'weare.api.testing.comment.CreateCommentTest')
+data.setCell(7, 3, 966);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sendRequest_successful')
+data.setCell(8, 2, 'weare.api.testing.connection.SendRequestTest')
+data.setCell(8, 3, 686);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged')
+data.setCell(9, 2, 'weare.api.testing.users.UpdateUserExpertiseTests')
+data.setCell(9, 3, 619);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'UserRegistration_When_InputValidData')
+data.setCell(10, 2, 'weare.api.testing.users.RegisterUserTests')
+data.setCell(10, 3, 599);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getUserPosts_Successful')
+data.setCell(11, 2, 'weare.api.testing.users.GetProfilePostsTests')
+data.setCell(11, 3, 545);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'editPost_Successful')
+data.setCell(12, 2, 'weare.api.testing.post.EditPostTest')
+data.setCell(12, 3, 514);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getUserRequestTest')
+data.setCell(13, 2, 'weare.api.testing.connection.GetUserRequestsTests')
+data.setCell(13, 3, 483);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createSkill_Successful')
+data.setCell(14, 2, 'weare.api.testing.skill.CreateSkillTests')
+data.setCell(14, 3, 320);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updateSkill_Successful')
+data.setCell(15, 2, 'weare.api.testing.skill.UpdateSkillTests')
+data.setCell(15, 3, 273);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deleteSkill_Successful')
+data.setCell(16, 2, 'weare.api.testing.skill.DeleteSkillTests')
+data.setCell(16, 3, 271);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getOneSkillById_Successful')
+data.setCell(17, 2, 'weare.api.testing.skill.GetOneSkillTests')
+data.setCell(17, 3, 231);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'newlyCreatedSkill_returned_whenGetAllSkills')
+data.setCell(18, 2, 'weare.api.testing.skill.GetAllSkillsTests')
+data.setCell(18, 3, 229);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getUserById_Successful')
+data.setCell(19, 2, 'weare.api.testing.users.GetUserByIdTests')
+data.setCell(19, 3, 228);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'approveRequest_successful')
+data.setCell(20, 2, 'weare.api.testing.connection.ApproveRequestTest')
+data.setCell(20, 3, 226);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'findAllComments_Successful')
+data.setCell(21, 2, 'weare.api.testing.comment.FindAllCommentsTest')
+data.setCell(21, 3, 211);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.comment.CreateCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createComment_Successful</span>
+                <span class="method-start">3867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4889 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.comment.DeleteCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5822 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteComment_Successful</span>
+                <span class="method-start">7681 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.comment.EditCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9269 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editComment_Successful</span>
+                <span class="method-start">10382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11629 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.comment.FindAllCommentsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12740 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findAllComments_Successful</span>
+                <span class="method-start">12741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.comment.LikeDislikeCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">likeDislikeComment_Successful</span>
+                <span class="method-start">14824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16433 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.connection.ApproveRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17547 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">17554 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">19321 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">approveRequest_successful</span>
+                <span class="method-start">20554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.connection.GetUserRequestsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20782 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">20783 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">22416 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getUserRequestTest</span>
+                <span class="method-start">23103 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.connection.SendRequestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">23588 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sendRequest_successful</span>
+                <span class="method-start">25271 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.CreatePostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createPost_Successful</span>
+                <span class="method-start">25962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26939 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.DeleteAPostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26940 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deletePost_Successful</span>
+                <span class="method-start">28071 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.EditPostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29765 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">editPost_Successful</span>
+                <span class="method-start">30883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.LikeDislikeAPostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">createPost_Successful</span>
+                <span class="method-start">31400 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">likeAndDislikePost_Successful</span>
+                <span class="method-start">31401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.skill.CreateSkillTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33226 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createSkill_Successful</span>
+                <span class="method-start">33227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33548 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.skill.DeleteSkillTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">33842 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteSkill_Successful</span>
+                <span class="method-start">34116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.skill.GetAllSkillsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">34390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">newlyCreatedSkill_returned_whenGetAllSkills</span>
+                <span class="method-start">34673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34904 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.skill.GetOneSkillTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getOneSkillById_Successful</span>
+                <span class="method-start">35448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35684 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.skill.UpdateSkillTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateSkill_Successful</span>
+                <span class="method-start">36235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36510 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.users.GetProfilePostsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">36783 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">36783 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getUserPosts_Successful</span>
+                <span class="method-start">38037 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.users.GetUserByIdTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38584 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">38584 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getUserById_Successful</span>
+                <span class="method-start">38585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.users.GetUsersTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38815 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">38816 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getUsers_Successful</span>
+                <span class="method-start">38816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.users.RegisterUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46943 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">46944 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UserRegistration_When_InputValidData</span>
+                <span class="method-start">46945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.users.UpdateUserExpertiseTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupClass</span>
+                <span class="method-start">47546 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47546 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserSuccessfullyUpdatesExpertise_When_ExpertiseChanged</span>
+                <span class="method-start">47547 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.EditPostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48169 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">weare.api.testing.post.LikeDislikeAPostTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48533 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
