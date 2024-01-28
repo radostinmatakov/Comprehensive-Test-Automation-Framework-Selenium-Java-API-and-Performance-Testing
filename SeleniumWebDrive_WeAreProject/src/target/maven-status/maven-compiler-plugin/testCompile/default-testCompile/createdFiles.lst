@@ -1,0 +1,10 @@
+weare\testing\BaseTestSetup.class
+weare\testing\AdministrativePartTests.class
+weare\testing\ProfileTests.class
+weare\testing\RegisterTest.class
+weare\testing\ConnectionTests.class
+weare\testing\AccessToPrivatePageTests.class
+weare\testing\CommentTests.class
+weare\testing\LoginTests.class
+weare\testing\AccessToPublicPageTests.class
+weare\testing\PostTests.class
