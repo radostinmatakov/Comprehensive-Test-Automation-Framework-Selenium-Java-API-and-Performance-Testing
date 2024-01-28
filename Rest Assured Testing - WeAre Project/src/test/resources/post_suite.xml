@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Post Suite">
+    <test name="Post API">
+        <classes>
+            <class name="weare.api.testing.post.CreatePostTest"/>
+            <class name="weare.api.testing.post.EditPostTest"/>
+            <class name="weare.api.testing.post.GetNewsFeedTest"/>
+
+
+        </classes>
+    </test>
+</suite>

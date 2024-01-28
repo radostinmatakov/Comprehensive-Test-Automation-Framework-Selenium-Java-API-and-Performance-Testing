@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Connection Suite">
+    <test name="Connection API">
+        <classes>
+            <class name="weare.api.testing.connection.SendRequestTest"/>
+            <class name="weare.api.testing.connection.GetUserRequestsTest"/>
+            <class name="weare.api.testing.connection.ApproveRequestTest"/>
+        </classes>
+    </test>
+</suite>

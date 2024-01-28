@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Skills Suite">
+    <test name="Skills API">
+        <groups>
+            <run na ></run>
+        </groups>
+
+        <classes>
+            <class name="weare.api.testing.post_sui"/>
+            <class name="weare.api.testing.skill.GetOneSkillTest"/>
+            <class name="weare.api.testing.skill.UpdateSkillTest"/>
+            <class name="weare.api.testing.skill.GetAllSkillsTest"/>
+            <class name="weare.api.testing.skill.DeleteSkillTest"/>
+        </classes>
+    </test>
+</suite>
