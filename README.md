@@ -1,18 +1,48 @@
-Project name - "WeAre" - a Social Network web application. The Social Network application enables you to:
-· Connect with people.
-· Create, comment and like posts.
-· Get a feed of the newest/most relevant posts of your connections. 
+# WeAre - Social Network Web Application
 
-Project Description: 
-· Verify that the delivered software meets the user requirements and is production-ready and to ensure stability by providing automated tests.
+## Project Overview
 
-Functional Requirements:
-· Planning - preparing a plan with estimates of the time and effort needed for each activity.
-· Test Plan - desctripiton of all activities needed to verify the quality of the product. Follow the templates and guides covered in the materials from the lectures.
-· Test Cases - development of high-level test cases that will verify a required quality level and guarantee the customer requirements coverage(managment tool - JIRA)
-· Execution
-  - Manual - conducting exploratory testing for the entire system and cover main functionalities and happy paths. Creating a coverage report that shows which cases are executed and with what result.
-  - Automation - creating automated suites that cover at least the happy paths and makeing sure to have reports of each execution so you can provide info on how many tests pass/fail.
-    = UI testing - Selenium Web Driver
-    = API testing - REST Assured and Postman
-· Reporting
+"WeAre" is a Social Network web application that facilitates connections between users. It allows users to create, comment, and like posts, as well as provides a feed of the newest/most relevant posts from their connections.
+
+## Project Description
+
+The primary goal of this project is to verify that the delivered software meets user requirements and is production-ready. This is achieved through a comprehensive testing process that ensures stability and quality.
+
+## Functional Requirements
+
+### 1. Planning
+
+- Prepare a detailed plan with estimates for each activity involved in the testing process.
+
+### 2. Test Plan
+
+- Create a test plan that outlines all activities required to verify the quality of the product. Follow templates and guides covered in the materials from the lectures.
+
+### 3. Test Cases
+
+- Develop high-level test cases that ensure the required quality level and cover customer requirements. Utilize the management tool JIRA for test case management.
+
+### 4. Execution
+
+#### 4.1 Manual Testing
+
+- Conduct exploratory testing for the entire system, covering main functionalities and happy paths.
+- Create a coverage report that indicates which test cases were executed and their results.
+
+#### 4.2 Automation Testing
+
+- Create automated test suites to cover at least the happy paths.
+- Ensure detailed reports for each execution, providing information on the number of tests that pass/fail.
+
+##### 4.2.1 UI Testing
+
+- Utilize Selenium Web Driver for UI testing.
+
+##### 4.2.2 API Testing
+
+- Use REST Assured and Postman for API testing.
+
+### 5. Reporting
+
+- Generate reports that summarize the testing process, including results from manual and automated testing.
+
