@@ -2,11 +2,20 @@
 
 ## Project Overview
 
-"WeAre" is a Social Network web application that facilitates connections between users. It allows users to create, comment, and like posts, as well as provides a feed of the newest/most relevant posts from their connections.
+"WeAre" is a Social Network web application designed to facilitate connections between users. It enables users to create, comment on, and like posts, as well as view a dynamic feed of the newest and most relevant posts from their connections.
+
+This repository is part of a Telerik Academy project and provides an overview of the WeAre platform alongside several testing frameworks developed from scratch to ensure the quality and stability of the application.
 
 ## Project Description
 
-The primary goal of this project is to verify that the delivered software meets user requirements and is production-ready. This is achieved through a comprehensive testing process that ensures stability and quality.
+The primary goal of this project is to demonstrate comprehensive testing frameworks and methodologies used to verify that the "WeAre" platform meets user requirements. These frameworks are designed for educational purposes and are non-executable, serving as a reference for learning and exploring different testing strategies.
+
+The repository includes frameworks for:
+
+- UI Automation Testing with Selenium
+- API Testing using Postman
+- API Testing using REST Assured
+- Performance Testing
 
 ## Functional Requirements
 
@@ -45,4 +54,15 @@ The primary goal of this project is to verify that the delivered software meets 
 ### 5. Reporting
 
 - Generate reports that summarize the testing process, including results from manual and automated testing.
+
+## Limitations
+
+This repository is intended for demonstration purposes only. It is not executable and does not include runnable software or dependencies. Its purpose is to showcase the frameworks and methodologies developed during the Telerik Academy program.
+
+## Key Features
+
+- Built from Scratch: All frameworks were designed and implemented independently.
+- Framework Variety: Covers UI automation, API testing, and performance testing.
+- Comprehensive Structure: Includes planning, test case design, execution, and reporting processes.
+- Educational Resource: Ideal for learning best practices in software testing.
 
