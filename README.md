@@ -1,4 +1,4 @@
-# WeAre - Social Network Web Application
+# WeAre - Social Network Web Application(Telerik Academy's final Project)
 
 ## Project Overview
 
