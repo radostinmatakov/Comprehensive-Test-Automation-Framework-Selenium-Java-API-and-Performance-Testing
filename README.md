@@ -14,6 +14,8 @@ The primary goal of this project is to demonstrate comprehensive testing framewo
 The repository includes frameworks for:
 
 - UI Automation Testing with Selenium
+  - JUnit
+  - TestNG
 - API Testing using Postman
 - API Testing using REST Assured
 - Performance Testing
